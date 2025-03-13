@@ -3,7 +3,7 @@ import datetime
 import subprocess
 
 def actualizar_fecha():
-    repo_path = "/Users/jhonjairotorres/dev/projects/actualizador_fecha"
+    repo_path = "/Users/jhonjairotorres/dev/projects/actualizar_fecha"
     file_path = os.path.join(repo_path, "fecha.txt")
     
     # Obtener la fecha actual en el formato requerido
