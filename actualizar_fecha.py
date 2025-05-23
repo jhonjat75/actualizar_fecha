@@ -9,7 +9,7 @@ def actualizar_fecha():
     # Obtener la fecha actual en el formato requerido
     fecha_actual = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
     
-    # Escribir la fecha en el archivo
+    # Escribir la fecha actual en el archivo
     with open(file_path, "w") as file:
         file.write(fecha_actual + "\n")
     
